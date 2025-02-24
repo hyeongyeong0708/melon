@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8">
+	<title>Melon::멜론이 필요한 순간, 멜론</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		.width {
+			width: 1010px;
+			margin-left: 210px;
+		}
+		.border {
+			border: 1px solid black;
+		}
+		.line {
+			color: lightgray;
+		}
+		
+		
+		.image_size {
+			width: 223px;
+			height: 140px;
+		}
+
+		.font {
+			color: gray;
+		}
+
+		.circle {
+			border: 1px solid lightgray;
+			display: inline-block;
+			padding: 3.5px;
+			border-radius: 50%;
+		}
+
+		#table1 {
+			display: inline-block;
+			margin-top: 10px;
+			border-collapse: collapse;
+		}
+
+		.table1_image {
+			width: 153px;
+			height: 120px;
+			margin-right: 4px;
+		}
+		.table1_div {
+			margin-top: -5px;
+			background-color: rgba(0, 0, 0, 0.75);
+			color: white;
+			text-align: center;
+			width: 153px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 13px;
+		}
+		.round {
+			display: inline-block;
+			width: 15px;
+			height: 12px;
+			text-align: center;
+			line-height: 12px;
+			font-size: 8px;
+			position: absolute;
+			border: 1px solid lightgray;
+		}
+		.lr {
+			margin-top: 3px;
+			border-radius: 40px 0px 0px 40px;
+			color: lightgray;
+		}
+		.rr {
+			margin-top: 3px;
+			border-radius: 0px 40px 40px 0px;
+			margin-left: 17px;
+			border-left-style: none;
+			color: dimgray;
+		}
+
+		#table2{
+			display: inline-block;
+			border-collapse: collapse;
+			width: 700px;
+		}
+
+		.div1 {
+			font-size: 12.5px;
+			color: gray;
+			
+		}
+		.div2 {
+			font-size: 11.5px;
+		}
+		.margin {
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.green {
+			color: rgb(105 196 89);
+		}
+		#table3 {
+			position: absolute;
+			width: 290px;
+			border-collapse: collapse;
+			height: 390px;
+			font-size: 12px;
+			border: 1px solid lightgray;
+			border-top-style: none;
+		}
+		.table3_background {
+			background-color: whitesmoke;
+		}
+		.table3_top3_1 {
+			color: yellowgreen;
+			padding-left: 18px;
+			font-size: 17px;
+		}
+		.table3_num {
+			text-align: center;
+			font-size: 11px;
+			padding-right: 11px;
+			color: gray;
+		}
+		.table3_count {
+			color: gray;
+			padding-left: 18px;
+			font-size: 16px;
+		}
+		.margin-top {
+			margin-top: 3px;
+		}
+		.line-height { 
+			
+		}
+	</style>
+ </head>
+ <body>
+	<div style="width: 100%; height: 3px; background-color: rgb(105 196 89)"></div>
+
+	<div class="width" style="height: 25px; padding: 5px 0px 4px 0px; font-size: 13px;">
+		<span style="color: gray; line-height: 25px;">멜론티켓</span>
+		<span style="float: right; color: gray; line-height: 25px;">
+			<img src="images/ticket.png" style="width: 20px; height: 18px; vertical-align: middle">
+			<b>이용권구매</b>&nbsp;&nbsp; <span class="line">|</span> &nbsp;&nbsp;<b>멜론혜택관</b>&nbsp;&nbsp; <span class="line">|</span> &nbsp;&nbsp;<b>이벤트</b>&nbsp;&nbsp; <span class="line">|</span> &nbsp;&nbsp;<b>공지사항</b>
+		</span>
+	</div>
+
+	<div style="width: 100%; height: 1px; background-color: lightgray;"></div>
+
+	<div class="width" style="position: relative;">
+		<div style="display: inline-block; vertical-align: center;">
+			<img src="images/melon_log.png" style="width: 130px; height: 70px; margin-top: 30px; vertical-align: -43px;">
+			<div style="display: inline-block; border: 2px solid rgb(105 196 89); margin-left: 12px; width: 313px; height: 38px; vertical-align: -14px; font-size: 12px; line-height: 38px; border-radius: 40px;">
+				<span style="margin-left: 17px; color: gray;">독보적인 감각과 음악적 색감! 키 'Bad Love'</span>
+				<img src="images/dot.png" style="width: 31px; border: 1px soild black; float: right; margin-top: 5px; margin-right: 5px;">
+			</div>
+		
+			<div style="display: inline-block; width: 45px; height: 19px; background-color: rgb(105 196 89); color: white; margin-left: 10px; font-size: 11px; text-align: center; line-height: 19px; border-radius: 40px; position: absolute; margin-top: 55px;"><b>급상승</b>
+			</div>
+		</div>
+		<div style="display: inline-block; margin-left: 60px; position: absolute; margin-top: 60px;">
+			<div style="display: inline-block; font-size: 13px; margin-left: 15px;">
+				<span style="color: red">
+					<b>2.</b>
+				</span> 양지은
+				<span>
+					<img src="images/point.png" style="margin-left: 50px; width: 8px; height: 8px;">
+					<span style="color: red; font-size: 11px;">
+						<b>1</b>
+					</span>
+				</span>
+			</div>
+		</div>
+	
+		<div style="display: inline-block; float: right; width: 310px;">
+			<img src="images/event_img.png" style="float: right; width: 110px; margin-right: -10px; margin-top: 25px;">
+			<span style="display: inline-block; color: gray; float: right; font-size: 12px; margin-top: 55px;">
+				멜론과 함께하는 슬기로운 음악감상
+			</span>
+			<span style="display: inline-block; float: right; font-size: 12px;">
+				#멜론_최애_자랑대회 이벤트
+			</span>
+		</div>
+		<div style="margin-top: 20px; font-size: 15px;">
+			<div style="display: inline-block"><b>
+				멜론차트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;최신음악&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;장르음악&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;멜론DJ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;멜론TV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스타포스트&nbsp;&nbsp;&nbsp;&nbsp&nbsp;메거진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;뮤직어원드&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;어학</b>
+			</div>
+			<div style="display: inline-block; float: right; color: gray;">
+				<b>마이뮤직</b>
+			</div>
+		</div>
+	</div>
+
+	<div style="width: 100%; height: 1.5px; background-color: lightgray; margin-top: 15px;"></div>
+	
+	
+
+	<div class="width" style="margin-top: 22px; font-size: 14px; position: relative;">
+		<div>
+			<span><b>최신앨범</b></span><span style="color: gray"> 〉</span>
+			<span style="margin-left: 205px; font-size: 12px;">
+				<span><b>전체</b></span>
+				<span class="font"> | 가요 | POP</span>
+			</span>
+			<span style="margin-left: 33px;">
+				1<span class="font">/9</span>
+			</span>
+			<span class="round lr"style="margin-left: 1px;"><b>〈</b></span>
+			<span class="round rr"><b>〉</b></span>
+			<span style="margin-left: 160px;">
+				<span class="circle"style="border: 1px solid dimgray; display: inline-block; padding: 3.5px; border-radius: 50%;"></span>
+
+				<span class="circle"></span>
+
+				<span class="circle"></span>
+
+				<span class="circle"></span>
+
+				<span class="circle"></span>
+
+				<span class="circle"></span>
+
+				<span class="circle"></span>
+
+				<span style="border: 1px solid lightgray; display: inline-block; border-radius: 50%; text-align: center; height: 13px; line-height: 11px; width: 13px; margin-left: 5px; font-size: 10px; ">∥</span>
+			</span>
+		</div>
+	
+
+		<table id="table1">
+			<tr>
+				<td><img src="images/seungwoo(2).png" class="table1_image">
+				<div class="table1_div">유승우<div>
+				</td>
+				<td><img src="images/ciipher(2).png" class="table1_image">
+				<div class="table1_div">싸이퍼(Ciipher)</div>
+				</td>
+				<td><img src="images/wonstein.png" class="table1_image">
+				<div class="table1_div">원슈타인</div>
+				</td>
+				<td rowspan="2">
+					<img src="images/ciipher(2).png" style="width: 235px; height: 230px; margin-left: 10px;">
+					<div style="background-color: rgba(0, 0, 0, 0.75); color: white; height:70px; width: 235px; margin-top: -3px; margin-left: 10px; font-size: 10.5px;">
+						
+							<div style="padding-top: 5px; padding-left: 5px; display: inline-block;">New Album</div>
+							<div style="font-size: 23px; padding-left: 5px;">싸이퍼(Ciipher)</div>
+							<div style="padding-left: 5px;">슈퍼루키! 미니 2집 타이틀곡 '콩깍지'로 컴백!</div>
+						
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="images/THAMA.png" class="table1_image margin-top">
+				<div class="table1_div">THAMA</div>
+				</td>
+				<td><img src="images/woody.png" class="table1_image margin-top">
+				<div class="table1_div">우디(Woody)</div>
+				</td>
+				<td><img src="images/yujin.png" class="table1_image margin-top">
+				<div class="table1_div">정유진</div>
+				</td>
+			</tr>	
+		</table>
+		
+		
+	
+	
+		<div style="display: inline-block; float: right; border: 1px solid gainsboro; background-color: rgb(251 251 251);width: 285px; height: 138px; margin-top: 11px;">
+			<div style="color: gray; font-size: 12px; margin: 35px 0px 0px 15px; display: inline-block;">멜론을 더 안전하게 이용하세요.</div>
+			<span style="color: gray; font-size: 12px; margin: 30px 0px 0px 30px;">회원가입</span>
+			<div style="background-color: rgb(105 196 89); width: 220px; height: 30px; padding: 10px 20px 10px 15px; margin: 5px 0px 10px 15px; color: white; font-size: 15px; text-align: center; line-height: 30px;">로그인</div>
+		</div>
+		<img src="images/youngyoung.png" style="float:right; width: 287px; height: 152px; margin-top: -154px;">
+		<img src="images/event_long_img.png" style=" margin-top: 20px; width: 1010px;">
+	</div>
+
+	<div class="width" style="margin-top: 20px; display: inline-block;">
+		<div style="width: 685px;">
+			<span><b>인기 있어요</b></span>
+			<span style="font-size: 13px; color: gray;">지금 이슈가 되는 아티스트의 인기 컨텐츠입니다.</span>
+			<span style="margin-left: 260px; font-size: 13px;">2<span style="color: gray">/2</span>
+			<span class="round lr"style="color: dimgray; margin-left: 5px; margin-top: 6px;"><b>〈</b></span>
+			<span class="round rr"style="color: lightgray; margin-top: 6px; margin-left: 21px;">〉</span>
+			
+		</div>
+	</div>
+	<div style="margin-left: 210px; background-color: black; margin-top: 10px; margin-bottom: 15px; width: 700px; height: 1px;"></div>
+	
+	<div class="width">
+		<table id="table2">
+			<tr>
+				<td>
+					<img src="images/sam.png"class="image_size">
+					<div class="div1"><b style="color: black;">사심을 담아 알아본 Sam Ryder</b> <br>
+					그에 대한 모든것
+					<div class="div2"><span class="green">멜론메거진</span> &nbsp; | 조회 3,533</div></div>
+				</td>
+				<td>
+					<img src="images/nct.png" class="image_size margin">
+					<div class="div1 margin"><b style="color: black;">독보적인 음악 스타일, NCT 127!</b> <br>
+					신보 [Sticker]에 대한 모든것!<br>
+					<div class="div2"><span class="green">멜론메거진</span> &nbsp; | 조회 6,567</div></div>
+				</td>
+				<td>
+					<img src="images/yoseop.png" class="image_size">
+					<div class="div1"><b style="color: black;">감성을 파고드는 음색</b> <br>
+					양요섭 신곡 'BRAIN'<br>
+					<div class="div2"><span class="green">멜론메거진</span> &nbsp; | 조회 8,959</div></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="images/theday.png" class="image_size" style="margin-top: 15px;">
+					<div class="div1"><b style="color: black;">감미로운 보이스, 특유의 감성</b><br>
+					DK 프로필 & '그날 그밥' MV 촬영 현장 <br>
+					<div class="div2"><span class="green">멜론메거진</span> &nbsp; | 조회 1,823</div></div>
+				</td>
+				<td>
+					<img src="images/labi.png" class="image_size margin" style="margin-top: 15px;">
+					<div class="div1 margin"><b style="color: black">은근히 중독돼요~ 부끄뚱 & 라비!</b> <br>
+					'은근히 낮가려요' 무대<br>
+					<div class="div2"><span class="green">멜론TV</span> &nbsp; | 조회 6,046</div></div>
+				</td>
+				<td>
+					<img src="images/monologue.png" class="image_size" style="margin-top: 15px;">
+					<div class="div1"><b style="color: black;">버스의 명곡 'Monologue'</b> <br>
+					이홍기의 버전으로 듣는다면?<br>
+					<div class="div2"><span class="green">멜론TV</span> &nbsp; | 조회 1,192</div></div>
+				</td>
+			</tr>
+		</table>
+	
+
+		<div style="position: absolute; display: inline-block; width: 290px; margin-left: 20px; margin-top: -47px;">
+			<div style="margin-bottom: 10px; font-size: 15px;">
+				<b>멜론차트<span style="color: gray;"> 〉</span></b>
+				<div style="float: right; font-size: 13px;">2021.09.28 <b>18:00</b>기준
+			</div>
+		</div>
+
+		
+		<table style="width: 290px; border-collapse: collapse; font-size: 13px; height: 30px; border: 1px solid lightgray;">
+		<tr>
+			<th style="border: 1px solid lightgray; border-top-color:rgb(105 196 89); border-top-width: 2px; color: rgb(105 196 89); padding: 0px 5px;">TOP 100</th>
+			<th style="width: 92px; border: 1px solid lightgray; color: gray;">POP</th>
+			<th style="color: gray;">☆아티스트</th>
+		</tr>
+		</table>
+
+		<table id="table3">
+			<tr>
+				<td class="table3_top3_1" style="font-size: 25px; padding-left: 15px;"><b><i>1</i></b></td>
+				<td class="table3_num">- 0</td>
+				<td colspan="2">
+					<img src="images/stay.png" >
+					<span style="position: absolute;margin-top: 10px; margin-left: 10px; font-size: 14px;"><b>STAY</b><br><span style="color: gray; font-size: 12px;">The Kid LAROL, Just···▶</span>
+				</td>
+			</tr>
+			<tr class="table3_background">
+				<td class="table3_top3_1"><b>2</b></td>
+				<td class="table3_num">- 0</td>
+				<td>신호등</td>
+				<td style="color: gray">이무진</td>
+			</tr>
+			<tr>
+				<td class="table3_top3_1"><b>3</b></td>
+				<td class="table3_num">- 0</td>
+				<td>My Universe</td>
+				<td style="color: gray">Coldplay, ···</td>
+			</tr>
+			<tr class="table3_background">
+				<td class="table3_count"><b>4</b></td>
+				<td class="table3_num" style="color: red;"><span style="font-size: 10px; color: red;">▲</span>1</td>
+				<td>OHAYO MY NI···</td>
+				<td style="color: gray">디핵 (D-Ha···</td>
+			</tr>
+			<tr>
+				<td class="table3_count"><b>5</b></td>
+				<td class="table3_num" style="color: blue;"><span style="font-size: 10px;">▼</span>1</td>
+				<td>Permission to D</td>
+				<td style="color: gray">방탄소년단</td>
+			</tr>
+			<tr class="table3_background">
+				<td class="table3_count"><b>6</b></td>
+				<td class="table3_num">- 0</td>
+				<td>Next Level</td>
+				<td style="color: gray">aespa</td>
+			</tr>
+			<tr>
+				<td class="table3_count"><b>7</b></td>
+				<td class="table3_num">- 0</td>
+				<td>바라만본다</td>
+				<td style="color: gray">MSG워너···</td>
+			</tr>
+			<tr class="table3_background">
+				<td class="table3_count"><b>8</b></td>
+				<td class="table3_num">- 0</td>
+				<td>Butter</td>
+				<td style="color: gray">방탄소년단</td>
+			</tr>
+			<tr>
+				<td class="table3_count"><b>9</b></td>
+				<td class="table3_num">- 0</td>
+				<td>Weekend</td>
+				<td style="color: gray">태연 (TAE···</td>
+			</tr>
+			<tr class="table3_background">
+				<td class="table3_count" style="padding-left: 12px;"><b>10</b></td>
+				<td class="table3_num">- 0</td>
+				<td>낙하 (width 아이···</td>
+				<td style="color: gray">AKMU (악뮤)</td>
+			</tr>
+			<tr style="height: 40px;">
+				<td colspan="4">
+					<span style="border: 1px solid gray; font-size: 9px; inline-height: 40px; padding: 4px; margin-left: 20px; background-color: rgb(250 250 250); border-radius: 1.5px;"><img src="images/button.png" style="width: 16px; height: 16px; vertical-align: -4px; margin-right: 3px;"><b>셔플듣기</b></span>
+					<span style="font-size: 12px; inline-height: 40px; float: right; padding-right: 20px;">더보기 〉</span></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div style="width: 1010px; background-color: lightgray; height: 1px; margin-top: 50px;"></div>
+	<div style="height: 40px; line-height: 40px; font-size: 12px; color: gray;"><b style="margin-right: 30px; color: black;">공지사항</b> 멜론 이용에 불편을 드려 죄송합니다. <span style="margin-left: 15px;">2021.09.27</span></div>
+	</div>
+	<div style="background-color: darkgray; width: 100%; height: 2px;"></div>
+	<div style="float: right; margin-right: 200px; padding: 10px 0px; font-size: 15px;">
+		멜론6.0둘러보기 &nbsp; 멜론스튜디오 &nbsp; Windows플레이어 &nbsp; Mac플레이어 &nbsp; iPad &nbsp; 고객센터
+	</div>
+ </body>
+</html>
